@@ -81,7 +81,7 @@ resource "aws_instance" "example" {
 
   # Root EBS volume: 10 GB gp3
   root_block_device {
-    volume_size = 31
+    volume_size = 33
     volume_type = "gp3"
   }
 
